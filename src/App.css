@@ -1,0 +1,94 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d5daed;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 12px 20px;
+  background-color: #ffcccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d40000;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-card h4 {
+  font-size: 16px;
+  color: #8e0909;
+  min-height: 40px;
+}
+
+.product-card p {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product-card button:hover {
+  background-color: #cc0000;
+}
+
+.cart-page,
+.checkout-page {
+  padding: 20px;
+}
+
+.cart-page h2,
+.checkout-page h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  cursor: pointer;
+}
