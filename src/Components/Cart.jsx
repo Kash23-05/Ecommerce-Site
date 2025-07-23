@@ -38,8 +38,3 @@ const Cart = ({ cart, removeFromCart }) => {
 };
 
 export default Cart;
-
-    
-//     <button onClick={() => removeFromCart(item.id)} style={{ marginLeft: "10px" }}>
-// Remove
-// </button>
