@@ -23,14 +23,3 @@ const ProductList =({addToCart})=>{
   );
 }
 export default ProductList;
-
-
-
-
-
-// <Link to={`/product/${product.id}`}>
-//         <button style={{ marginTop: '10px', backgroundColor: '#007bff', color: 'white' }}>
-//           Open
-//         </button>
-//       </Link>
-// import { Link } from 'react-router-dom';
